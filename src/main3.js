@@ -12,4 +12,16 @@ function sum(a, b) {
     return a + b;
 }
 
-module.exports = { sum };
+function isArray(a) {
+    return a instanceof Array
+}
+
+function validate(name) {
+    if (name.length > 5) {
+        throw new Error("名前が長すぎます")
+    }
+}
+
+
+
+module.exports = { sum, validate, isArray };
