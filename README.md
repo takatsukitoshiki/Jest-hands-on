@@ -151,17 +151,17 @@ toBe()以外にもたくさんの種類があり、必要に応じて使い分�
 場合によってはエラーとなることが期待値であることもあります。
 
 いくつかサンプルをあげてみます。
-・toBeNull()
+* toBeNull()
 結果がnullであることを期待します
-・toBeTruthy()
+* toBeTruthy()
 結果がTrueであることを期待します。
-・toStrictEqual(value)
+* toStrictEqual(value)
 オブジェクトの中身を細かく精査します。すべての項目名や値が一致しなければOKとなりません。
-・toThrow(error?)
+* toThrow(error?)
 エラーが発生することを期待します。引数にエラーオブジェクトを与えることで、発生したエラーについても検証します。
-・toHaveBeenCalledTimes(number)
+* toHaveBeenCalledTimes(number)
 対象の関数が指定の回数呼ばれることを期待します。モックを対象に使用します。
-・toHaveBeenCalledWith(arg1, arg2, ...)
+* toHaveBeenCalledWith(arg1, arg2, ...)
 対象の関数が指定の引数で呼ばれることを期待します。モックを対象に使用します。
 
 他にもたくさんの種類があるので、一度下記のURLを確認してみてください。
