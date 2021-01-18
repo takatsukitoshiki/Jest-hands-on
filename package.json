@@ -1,0 +1,25 @@
+{
+  "name": "jest-hands-on",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takatsukitoshiki/Jest-hands-on.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/takatsukitoshiki/Jest-hands-on/issues"
+  },
+  "homepage": "https://github.com/takatsukitoshiki/Jest-hands-on#readme"
+}
